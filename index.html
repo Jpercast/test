@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        Nombre:<br>
+        <input type="text" name="nombre">
+        <br>
+        Apellidos:<br>
+        <input type="text" name="apellidos">
+        <br>
+        <hr>
+        Usuario:<br>
+        <input type="text" name="acceso">
+        <br>
+        Clave Acceso:<br>
+        <input type="password" name="clave">
+        <br>
+        <hr>
+        Primer Nombre:<br>
+        <input type="text" name="pnombre" required>
+        <br>
+        Segundo Nombre:<br>
+        <input type="text" name="snombre" required>
+        <br><br>
+        <input type="submit" value="Enviar">
+        <br><br>
+        <input type="radio" name="genero" value="Masculino" cheked> Masculino
+        <br>
+        <input type="radio" name="genero" value="Femenino" cheked> Femenino
+        <br><br>
+        <hr>
+        <input type="checkbox" name="transporte" value="Bicicleta"> Tengo Bicicleta<br>
+        <input type="checkbox" name="transporte" value="Motocicleta"> Tengo Motocicleta<br>
+        <input type="checkbox" name="transporte" value="Automovil"> Tengo AutoMovil<br>
+        <hr>
+        <input type="button" onclick="alert('Estamos Avanzando')" value="Click Aquí"><br>
+        <hr>
+        <select name="autos">
+            <optgroup label="Autos Japoneses">
+                <option value="volvo">VOLVO</option>
+                <option value="toyota">TOYOTA</option>
+                <option value="renault">RENAULT</option>
+                <option value="nissan">NISSAN</option>
+            </optgroup>
+        </select>
+    </form>
+    <form>
+        <fieldset>
+            <legend>DATOS PERSONALES</legend>
+            Nombre: <input type="text" name="nombre" placeholder="Inserta tu Nombre"><br>
+            
+        </fieldset>
+    </form>
+</body>
+</html>
